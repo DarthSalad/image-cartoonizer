@@ -73,7 +73,7 @@ We have used ``OpenCV`` library in `Python` for applying all the image processin
   ```python
   cartoon = cv2.bitwise_and(blurred, blurred, mask=edges)
   ```
-
+---
 ## API Reference
 
 #### Get the cartoonized image
@@ -115,7 +115,7 @@ await axios.request({
 
   return Response(img_byte_arr, mimetype='image/jpeg') # Flask Response object
 ```
-
+---
 
 ## Installation
 
@@ -164,13 +164,18 @@ npm i
 ```bash
 npm start
 ```
-
+---
     
 ## Screenshots
 
-![App Screenshot]()
-![App Screenshot]()
-![App Screenshot]()
+#### Home Page
+<img src="./web-app/public/IVP-ss1.png" width="600px">
+
+#### Upload a picture
+<img src="./web-app/public/IVp-ss2.png" width="600px">
+
+#### Click on 'Cartoonize' and see the results
+<img src="./web-app/public/IVP-ss3.png" width="600px">
 
 
 ## Authors
