@@ -81,10 +81,6 @@ def cartoonize():
     img_byte_arr = img_byte_arr.getvalue()
 
     return Response(img_byte_arr, mimetype='image/jpeg')
-  
-@app.route('/hello')
-def hello():
-  return 'Hello World!'
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
