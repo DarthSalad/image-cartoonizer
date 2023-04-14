@@ -182,5 +182,5 @@ npm start
 
 - [@DarthSalad](https://www.github.com/DarthSalad)
 - [@karteek-02](https://github.com/karteek-02)
-- []()
+- [@shiyo2002](https://github.com/shiyo2002)
 
